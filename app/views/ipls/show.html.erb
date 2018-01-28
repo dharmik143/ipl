@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>P name:</strong>
+  <%= @ipl.p_name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @ipl.price %>
+</p>
+
+<p>
+  <strong>Ptype:</strong>
+  <%= @ipl.ptype %>
+</p>
+
+<%= link_to 'Edit', edit_ipl_path(@ipl) %> |
+<%= link_to 'Back', ipls_path %>

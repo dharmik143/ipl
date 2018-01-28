@@ -1,0 +1,2 @@
+class Ipl < ApplicationRecord
+end
